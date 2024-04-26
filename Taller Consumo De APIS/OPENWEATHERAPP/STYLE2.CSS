@@ -1,0 +1,66 @@
+body {
+    padding-top: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container{
+    flex: content;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 500px ;
+    min-width: 80px;
+}
+.card{
+    align-self: center;
+    outline: dashed 1px black;
+    
+}
+
+h5 {
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #2aa2d1;
+    color: #fff;
+}
+
+#button-addon1 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+#weather {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+@media (min-width: 80px) {
+    .container, .container-md, .container-sm {
+        max-width: 80px;
+    }
+}

@@ -1,0 +1,31 @@
+.carrusel {
+    display: flex;
+    outline:none;
+    /* overflow: hidden; */
+    width: 200px;
+    height: 200px;
+
+  }
+  
+  .carrusel img {
+    width: 200px;
+    height: 200px;
+    outline:none;
+  }
+
+  #galeria {
+    margin-top: 250px;
+    padding: 100px, 100px, 100px, 100px;
+    outline:none;
+
+  }
+
+  .card{
+    align-self: center;
+    outline:none;
+  }
+
+  .container{
+    outline:none;
+
+  }
